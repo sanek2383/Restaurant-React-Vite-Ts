@@ -64,7 +64,10 @@ const App: React.FC = () => {
           element={<Error />}
         />
       </Route>
-    )
+    ),
+    {
+      basename: "/Restaurant-react-vite-ts/", 
+    }
   )
 
   useEffect(() => {
