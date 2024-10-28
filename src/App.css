@@ -258,7 +258,7 @@ button:focus-visible {
 /*** Hero Header ***/
 .hero-header {
   background: linear-gradient(rgba(15, 23, 43, 0.9), rgba(15, 23, 43, 0.9)),
-    url(img/bg-hero.jpg);
+    url(../img/bg-hero.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -340,7 +340,7 @@ button:focus-visible {
   height: 100%;
   min-height: 500px;
   background: linear-gradient(rgba(15, 23, 43, 0.1), rgba(15, 23, 43, 0.1)),
-    url(img/video.jpg);
+    url(../img/video.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -588,9 +588,6 @@ button:focus-visible {
   transition: background-color 0.3s ease;
 }
 
-/* .home-link:hover {
-  background-color: #fea116;
-} */
 
 @media (min-width: 1400px) {
   .container, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
