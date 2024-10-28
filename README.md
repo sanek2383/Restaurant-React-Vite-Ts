@@ -1,50 +1,63 @@
-# React + TypeScript + Vite
+## 🌐 Посмотреть приложение
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Вы можете увидеть, как работает приложение, перейдя по следующей ссылке:
 
-Currently, two official plugins are available:
+[🌟 Посмотреть на GitHub Pages](https://sanek2383.github.io/Restaurant-react-vite-ts/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+# 🍽️ Приложение "Ресторан"
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Добро пожаловать в приложение "Ресторан"! Это веб-сайт, который позволяет пользователям просматривать меню, узнавать о специальных предложениях и оформлять заказы. Сайт включает в себя красивые анимации и адаптивный дизайн, чтобы обеспечить удобство для пользователей.
 
-- Configure the top-level `parserOptions` property like this:
+## 🚀 Функциональные возможности
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- **Просмотр меню**: Легко просматривайте блюда.
+- **Заказ блюд**: Оформляйте заказы прямо с сайта.
+- **Анимации при прокрутке**: Наслаждайтесь плавными анимациями, создаваемыми с помощью AOS.
+- **Адаптивный дизайн**: Удобное отображение на всех устройствах благодаря Bootstrap.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## 🛠️ Используемые технологии
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+### Frontend:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- **React**: Библиотека для создания пользовательских интерфейсов.
+- **TypeScript**: Статическая типизация для повышения надежности кода.
+- **Bootstrap**: CSS-фреймворк для создания адаптивных интерфейсов.
+- **Font Awesome**: Иконки для улучшения визуального оформления.
+- **AOS**: Библиотека для анимаций при прокрутке.
+- **React Router**: Для маршрутизации внутри приложения.
+- **React Slick**: Карусель для удобного отображения.
+
+## 📦 Установка
+
+1. Клонируйте репозиторий:
+
+   ```bash
+   git clone https://github.com/ваш-логин/ваш-репозиторий.git
+   cd ваш-репозиторий
+
+   ```
+
+2. Установите зависимости:
+
+    ```
+      npm install
+    ```
+
+3. Запустите приложение:
+
+    ```
+    npm run dev
+    ```
+
+
+## 
+Не забудьте заменить https://github.com/ваш-логин/ваш-репозиторий.git на актуальную ссылку на ваш репозиторий и адаптировать информацию под ваш проект!
+
+## ⚠️ Важная информация
+
+**PS:** В проекте не требуется файл `404.html`. Также не забудьте изменить ссылки в следующих файлах для вашего проекта:
+
+- В `package.json`: обновите значение `"homepage":`
+- В `vite.config.js`: измените параметр `base:`
+- В `App.js`: установите `basename:`
