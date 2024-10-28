@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/sanek2383/Restaurant-react-vite-ts.git",
+  "homepage": "https://sanek2383.github.io/Restaurant-react-vite-ts",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
